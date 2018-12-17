@@ -141,41 +141,89 @@ h4 {
     
 }
 @media screen and (max-width: 980px) {
-    .max-width {
-      background-color: red;
+    body {
+        width: 980px;
     }
-  }
-  @media screen and (max-width: 748px) {
-    .max-width {
-      width: 30%;
-    }
-  }
-  
-  @media screen and (max-width: 640px) {
     .bigBox {
-        width: 600px;
+        width: 980px;
+        margin: 0;
+        padding: 0;
     }
     footer  {
-      width:100%;
+        width:100%;
     }
     section {
         margin: 10px;
-        width: 560px;
+        width: 890px;
         padding-left: 10px;
         padding-right: 10px;
         p: 50%;
     }
     header {
-        width: 100%;
+        width: 980px;
         margin: 0;
         text-align:0;
-        
+       
     }
     .headerContent {
-        width: 640px;
+        width: 980px;
+
     }
-    .navLinks {
-        float: left;
-    }
+   
+  }
+@media screen and (max-width: 748px) {
+.bigBox {
+    width: 700px;
+}
+footer  {
+    width:100%;
+}
+section {
+    margin: 10px;
+    width: 665px;
+    padding-left: 10px;
+    padding-right: 10px;
+    p: 50%;
+}
+header {
+    width: 100%;
+    margin: 0;
+    text-align:0;
+    
+}
+.headerContent {
+    width: 748px;
+}
+.navLinks {
+    float: left;
+}
+}
+  
+@media screen and (max-width: 640px) {
+.bigBox {
+    width: 600px;
+}
+footer  {
+    width:100%;
+}
+section {
+    margin: 10px;
+    width: 560px;
+    padding-left: 10px;
+    padding-right: 10px;
+    p: 50%;
+}
+header {
+    width: 100%;
+    margin: 0;
+    text-align:0;
+    
+}
+.headerContent {
+    width: 640px;
+}
+.navLinks {
+    float: left;
+}
 }
   
